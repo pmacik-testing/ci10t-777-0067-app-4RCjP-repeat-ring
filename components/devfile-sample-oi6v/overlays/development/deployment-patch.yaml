@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-oi6v
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-777-0067-tenant/ci10t-777-0067-app/devfile-sample-oi6v@sha256:a81c2bfff5e71435d97cda6e72440ee581da3d44220f737ca467aea5b243ebc9
+        name: my-nodejs
+        resources: {}
+status: {}
